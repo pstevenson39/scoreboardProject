@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 40px;
+    padding-left: 10%;
+    margin-bottom: 0;
+}
+
+.homeScore , .guestScore {
+    display: flex;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.homeButtons , .guestButtons {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.homeButtons > div , .guestButtons > div {
+    display: flex;
+    border: solid;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.resetBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #EEEEEE;
+    font-size: 20px;
+    border: 2px solid;
+    margin-top: 50px; 
+    border-radius: 5px;   
+}
